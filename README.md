@@ -1,1 +1,5 @@
-[Ejemplo pod.yml](pod-example-page.md)
+
+
+## Kubernetes:
+
+[pods](pod-example-page.md)
