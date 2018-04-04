@@ -15,4 +15,4 @@ spec:
     - name: nodejs-port
 containerPort: 3000
 ```
- [pod-yaml](https://github.com/alu0100885613/kubernetes-examples/blob/master/pod-yaml.yml)
+ [pod-yaml](pod-example-page.md)
