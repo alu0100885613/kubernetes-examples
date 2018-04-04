@@ -15,4 +15,4 @@ spec:
     - name: nodejs-port
 containerPort: 3000
 ```
- [pod-yaml](pod-example-page.md)
+ [pod-yaml](pod-yaml.yml)
