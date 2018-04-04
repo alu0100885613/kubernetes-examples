@@ -1,5 +1,3 @@
-# kubernetes-examples
-
 ```YAML
 apiVersion: v1
 kind: Pod
@@ -15,4 +13,4 @@ spec:
     - name: nodejs-port
 containerPort: 3000
 ```
- [pod-yaml](pod-yaml.yml)
+ [pod-yaml](pod-example-page.md)
