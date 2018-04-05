@@ -18,5 +18,6 @@ spec:
           containerPort: 3000
 ```
 
-[Descargar]()
-[<< Atrás]()
+[Descargar](deployment-yaml.yml)
+
+[<< Atrás](README.md)
