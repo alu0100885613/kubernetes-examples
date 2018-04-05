@@ -25,6 +25,14 @@ Labels:
 
 `kubectl get nodes --show-labels`
 
+Healthchecks:
+
+```YAML  livenessProbe:
+          httpGet:
+            path: /
+            port: grafana-port
+          initialDelaySeconds: 15
+          timeoutSeconds: 30```
 
 
 
