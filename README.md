@@ -4,7 +4,7 @@
 
 [pods](pod-example-page.md)
 
-[replicaset](pod-example-page.md)
+[replicaset](rs-example-page.md)
 
 [deployment]()
 
