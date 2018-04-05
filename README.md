@@ -10,12 +10,17 @@
 
 [replicaset](rs-example-page.md)
 
-`cambia la imagen de un pod ;)`
+`cambia la imagen de un pod ;) y curl script`
+
+#IMAGEN : wardviaene/k8s-demo
 
 `kubectl delete pod`
+
 `kubectl delete rs`
 
 [deployment](deployment-example-page.md)
+
+
 
 
 
