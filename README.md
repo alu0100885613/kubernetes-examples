@@ -6,9 +6,9 @@
 
 [replicaset](rs-example-page.md)
 
-[deployment]()
+[deployment](deployment-example-page.md)
 
-[services](pod-example-page.md)
+[services](services-example-page.md)
 
 
 
