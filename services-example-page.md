@@ -1,11 +1,19 @@
 ```YAML
+apiVersion: v1
+kind: Service
+metadata:
+  name: helloworld-service
+spec:
+  ports:
+  - port: 31001
+    nodePort: 31001
+    targetPort: nodejs-port
+    protocol: TCP
+  selector:
+    app: helloworld
+  type: NodePort
 
 ```
-
-
-
-
-
 
 [Decargar](services-yaml.yml)
 
