@@ -27,12 +27,14 @@ Labels:
 
 Healthchecks:
 
-```YAML  livenessProbe:
-          httpGet:
-            path: /
-            port: grafana-port
-          initialDelaySeconds: 15
-          timeoutSeconds: 30```
+```YAML  
+livenessProbe:
+     httpGet:
+     path: /
+     port: grafana-port
+     initialDelaySeconds: 15
+     timeoutSeconds: 30
+```
 
 
 
