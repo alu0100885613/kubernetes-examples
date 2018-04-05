@@ -21,6 +21,10 @@
 [deployment](deployment-example-page.md)
 
 
+Labels:
+
+`kubectl get nodes --show-labels`
+
 
 
 
