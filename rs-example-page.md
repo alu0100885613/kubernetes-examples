@@ -1,3 +1,4 @@
+```YAML
 apiVersion: apps/v1
 kind: ReplicaSet
 metadata:
@@ -18,3 +19,7 @@ spec:
         ports:
         - name: nodejs-port
           containerPort: 3000
+```
+[Descargar](rs-yaml.ml)
+
+[<< Atrás](README.md)
