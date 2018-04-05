@@ -2,22 +2,22 @@
 apiVersion: apps/v1
 kind: ReplicaSet
 metadata:
-  name: helloworld-replicaset
+  name: grafana-replicaset
 spec:
-  replicas: 2
+  replicas: 3
   selector:
     matchLabels:
-        app: helloworld
+        app: hellografana
   template:
     metadata:
       labels:
-        app: helloworld
+        app: hellografana
     spec:
       containers:
       - name: k8s-demo
-        image: wardviaene/k8s-demo
+        image: grafana/grafana:4.6.3
         ports:
-        - name: nodejs-port
+        - name: grafana-port
           containerPort: 3000
 ```
 [Descargar](rs-yaml.ml)
