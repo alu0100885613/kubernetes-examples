@@ -14,6 +14,6 @@ spec:
     - name: nodejs-port
 containerPort: 3000
 ```
-[Descargar pod-yaml.yml]({{file name='pod-yaml.yml'}})
+[Descargar pod-yaml.yml](https://github.com/alu0100885613/kubernetes-examples/blob/master/pod-yaml.yml)
 
 [<< Atrás](README.md)
