@@ -157,3 +157,16 @@ spec:
 
 ```
 
+Volumes:
+
+Permite que los datos persitan.
+
+Pet Set:
+
+Permite establecer un nombre fijo para un pod a la hora de acceder a recursos de manera estática.
+
+Daemon Sets:
+
+Definir el pod que se va a ejecutar en todos los nodos. (cAdvisor)
+
+
