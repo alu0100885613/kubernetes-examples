@@ -59,7 +59,7 @@ kind: Pod
 metadata:
   name: database
   labels:
-    *app: database*
+    app: database
 spec:
   containers:
   - name: mysql
