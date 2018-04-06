@@ -142,4 +142,18 @@ spec:
 
 ```
 
+```YAML
+apiVersion: v1
+kind: Service
+metadata:
+  name: helloworld-db-service
+spec:
+  ports:
+  - port: 3000
+    protocol: TCP
+  selector:
+    app: helloworld-db
+  type: NodePort
+
+```
 
