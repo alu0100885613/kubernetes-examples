@@ -169,4 +169,11 @@ Permite establecer un nombre fijo para un pod a la hora de acceder a recursos de
 
 Definir el pod que se va a ejecutar en todos los nodos. (cAdvisor)
 
+**Autoscaler**:
+
+[https://github.com/kubernetes/heapster/archive/master.zip](https://github.com/kubernetes/heapster/archive/master.zip)
+
+https://github.com/kubernetes-incubator/metrics-server/archive/master.zip(https://github.com/kubernetes-incubator/metrics-server/archive/master.zip)
+
+
 
