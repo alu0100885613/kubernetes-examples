@@ -90,5 +90,19 @@ spec:
             key: database
 ```
 
+```YAML
+apiVersion: v1
+kind: Service
+metadata:
+  name: database-service
+spec:
+  ports:
+  - port: 3306
+    protocol: TCP
+  selector:
+    app: database
+  type: NodePort
+
+```
 
 
